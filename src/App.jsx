@@ -1,6 +1,7 @@
 // App.jsx
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
@@ -12,9 +13,7 @@ import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
-  useEffect(() => {
-    window.location.reload()
-  }, [pathname]);
+  const { pathname } = useLocation();
   return (
     <div>
       <Navbar />
