@@ -87,14 +87,14 @@ const DoctorProfile = () => (
     <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-8">Meet Our Doctor</h2>
     <div className="bg-white p-10 rounded-xl shadow inline-block">
       <img
-        src="https://via.placeholder.com/150"
+        src="image.png"
         alt="Doctor"
         className="w-32 h-32 rounded-full mx-auto mb-5"
       />
       <h3 className="text-2xl font-semibold text-blue-600">Dr. Ashutosh</h3>
-      <p className="text-gray-700">MBBS • General Physician</p>
+      <p className="text-gray-700">Rdx • General Physician</p>
       <p className="mt-3 text-gray-700 text-sm">
-        10+ years experience in primary care, diagnosis, and patient treatment.
+        6+ years experience in primary care, diagnosis, and patient treatment.
       </p>
     </div>
   </motion.div>
